@@ -49,26 +49,54 @@ public class MyFirstApp {
                 }
         */
 
-        int bottlesNum = 10;
-        String word = "bottles";
+        //Esse é aquele aplicativo pra cantar aquela música em inglês
+        //Não entendi o que era pra corrigir, mas eu coloquei algo pra pular as linhas e deixar os parágrafos.
 
-        while (bottlesNum > 0) {
+        /*
+            int bottlesNum = 10;
+            String word = "bottles";
 
-            if (bottlesNum == 1) {
-                word = "bottle";
+            while (bottlesNum > 0) {
+
+                if (bottlesNum == 1) {
+                    word = "bottle";
+                }
+
+                    System.out.println(bottlesNum + " green " + word + " hanging on the wall,");
+                    System.out.println(bottlesNum + " green " + word + " hanging on the wall,");
+                    System.out.println("And if one green bottle should accidentally fall,");
+                    bottlesNum = bottlesNum - 1;
+
+                if (bottlesNum > 0) {
+
+                    System.out.println("There'll be " + bottlesNum + " green " + word + " hanging on the wall.\n ");
+                } else {
+                    System.out.println("There'll be no green bottles hanging on the wall.");
+                }
             }
 
-                System.out.println(bottlesNum + " green " + word + " hanging on the wall,");
-                System.out.println(bottlesNum + " green " + word + " hanging on the wall,");
-                System.out.println("And if one green bottle should accidentally fall,");
-                bottlesNum = bottlesNum - 1;
+        */
 
-            if (bottlesNum > 0) {
+        //Programa do Orador
 
-                System.out.println("There'll be " + bottlesNum + " green " + word + " hanging on the wall.\n ");
-            } else {
-                System.out.println("There'll be no green bottles hanging on the wall.");
-            }
-        }
+        String [] wordListOne = {"Voz ativa", "Voz passiva", "Voz reflexiva", "Voz recíproca", "Voz impessoal", "Voz reflexiva recíproca"};
+
+        String [] wordListTwo = {"Eu tenho", "Tu tens", "Ele tem", "Nós temos", "Vós tendes", "Eles têm"};
+
+        String [] wordListThree = {"Muito boa", "Boa", "Razoável", "Ruim", "Muito ruim"};
+
+
+        int wordInListOne = wordListOne.length;
+        int wordInListTwo = wordListTwo.length;
+        int wordInListThree = wordListThree.length;
+
+        java.util.Random randomGenerator = new java.util.Random();
+        int NumAleatorio = randomGenerator.nextInt(wordInListOne);
+        int NumAleatorio2 = randomGenerator.nextInt(wordInListTwo);
+        int NumAleatorio3 = randomGenerator.nextInt(wordInListThree);
+
+        String frase = wordListOne[NumAleatorio] + " " + wordListTwo[NumAleatorio2] + " " + wordListThree[NumAleatorio3];
+        System.out.println(frase);
+
     }
 }
