@@ -79,24 +79,162 @@ public class MyFirstApp {
 
         //Programa do Orador
 
-        String [] wordListOne = {"Voz ativa", "Voz passiva", "Voz reflexiva", "Voz recíproca", "Voz impessoal", "Voz reflexiva recíproca"};
+        /*
 
-        String [] wordListTwo = {"Eu tenho", "Tu tens", "Ele tem", "Nós temos", "Vós tendes", "Eles têm"};
+            String [] wordListOne = {"Voz ativa", "Voz passiva", "Voz reflexiva", "Voz recíproca", "Voz impessoal", "Voz reflexiva recíproca"};
 
-        String [] wordListThree = {"Muito boa", "Boa", "Razoável", "Ruim", "Muito ruim"};
+            String [] wordListTwo = {"Eu tenho", "Tu tens", "Ele tem", "Nós temos", "Vós tendes", "Eles têm"};
+
+            String [] wordListThree = {"Muito boa", "Boa", "Razoável", "Ruim", "Muito ruim"};
 
 
-        int wordInListOne = wordListOne.length;
-        int wordInListTwo = wordListTwo.length;
-        int wordInListThree = wordListThree.length;
+            int wordInListOne = wordListOne.length;
+            int wordInListTwo = wordListTwo.length;
+            int wordInListThree = wordListThree.length;
 
-        java.util.Random randomGenerator = new java.util.Random();
-        int NumAleatorio = randomGenerator.nextInt(wordInListOne);
-        int NumAleatorio2 = randomGenerator.nextInt(wordInListTwo);
-        int NumAleatorio3 = randomGenerator.nextInt(wordInListThree);
+            java.util.Random randomGenerator = new java.util.Random();
+            int NumAleatorio = randomGenerator.nextInt(wordInListOne);
+            int NumAleatorio2 = randomGenerator.nextInt(wordInListTwo);
+            int NumAleatorio3 = randomGenerator.nextInt(wordInListThree);
 
-        String frase = wordListOne[NumAleatorio] + " " + wordListTwo[NumAleatorio2] + " " + wordListThree[NumAleatorio3];
-        System.out.println(frase);
+            String frase = wordListOne[NumAleatorio] + " " + wordListTwo[NumAleatorio2] + " " + wordListThree[NumAleatorio3];
+            System.out.println(frase);
+        */
+
+        //Juntando pedaços de código (CODIGO CORRIGIDO DO EXERCÍCIO)
+
+        /*  int x =  3;
+
+            while (x > 0) {
+                if (x > 2) {
+                    System.out.print("a");
+                }
+                x = x - 1;
+                System.out.print("-");
+
+                if (x == 2) {
+                    System.out.print("b c");
+                }
+                if (x == 1) {
+                    System.out.print("d");
+                    x = x - 1;
+                }
+            }
+
+        */
+
+       //Juntando pedaços de código (MEU CÓDIGO, QUE FICOU ERRADO)
+
+        /*
+            int x = 3;
+            if (x>2) {
+                    System.out.print("a");
+                }
+
+            while (x>0) {
+                    x = x - 1;
+                    System.out.print("-");
+
+                    if (x == 2) {
+                        System.out.print("b c");
+                    }
+                }
+
+                if (x == 1) {
+                    System.out.print("d");
+                    x = x - 1;
+                }   
+        */
+
+       //Juntando pedaços de código (MEU CÓDIGO, SÓ QUE AGORA EU CORRIGI E COLOQUE O if (x == 1) DENTRO DO WHILE)
+
+       /*
+            int x = 3;
+
+            if (x>2) {
+                System.out.print("a");
+            }
+
+            while (x>0) {
+                x = x - 1;
+                System.out.print("-");
+
+                if (x == 2) {
+                    System.out.print("b c");
+                }
+
+                if (x == 1) {
+                    System.out.print("d");
+                    x = x - 1;
+                }   
+            }
+        */
+
+        //Testando um while e uma correção pra ele não ficar infinito
+
+        /*            int x = 1;
+            
+            while (x < 10) {
+                if ( x> 3) {
+                    System.out.println("big x");
+                }
+            }
+          
+        */
+
+        //Exercícios com blocos de comandos
+
+        /*  
+            int x = 0;
+            int y = 0;
+
+            while (x < 5) {
+                if (y < 5) {
+                    x = x + 1;
+                    if (y < 3) {
+                        x = x -1;
+
+                    }
+                }
+                y = y + 2;
+                System.out.print(x + "" + y + "");
+                x = x +1;
+            }
+        */
+
+        int x = 0;
+            
+        while (x < 4) {
+            System.out.print("a");
+
+            if (x < 1) {
+                System.out.print("n");
+            }
+
+            System.out.print("noise");
+
+            if (x > 0) {
+                 System.out.print("annoys");
+              }
+
+             x = x -1;
+
+            if (x == 1) {
+             System.out.print("an");
+            }
+
+            if (x > 0) {
+                System.out.print("oyster");
+            }
+
+            System.out.println();
+
+            x = x + 2;
+
+
+        }
+        
+
 
     }
 }
