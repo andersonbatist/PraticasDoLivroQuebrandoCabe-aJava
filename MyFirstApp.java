@@ -202,38 +202,136 @@ public class MyFirstApp {
             }
         */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         int x = 0;
+
+
+
+
+
+
             
         while (x < 4) {
-            System.out.print("a");
+            x = x + 2;
+
+
+
+
 
             if (x < 1) {
-                System.out.print("n");
+                System.out.print("a");
             }
 
-            System.out.print("noise");
+
+
+
+
+
+            System.out.print(" ");
+
+
 
             if (x > 0) {
-                 System.out.print("annoys");
-              }
+                 System.out.print("noise");
 
-             x = x -1;
+
+             x = x - 2;
+            }
+
+
+
 
             if (x == 1) {
              System.out.print("an");
             }
 
-            if (x > 0) {
+
+
+
+            if (x > 3) {
                 System.out.print("oyster");
             }
 
+
+
+
+
             System.out.println();
 
-            x = x + 2;
+
+            x = x - 1;
 
 
         }
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
