@@ -252,7 +252,7 @@ public class MyFirstApp {
 
             
         while (x < 4) {
-            x = x + 2;
+            //
 
 
 
@@ -271,25 +271,25 @@ public class MyFirstApp {
 
 
 
-            if (x > 0) {
+            if (x < 1) {
                  System.out.print("noise");
 
 
-             x = x - 2;
+             x = x + 2;
             }
 
 
 
 
             if (x == 1) {
-             System.out.print("an");
+             System.out.print("noys");
             }
 
 
 
 
             if (x > 3) {
-                System.out.print("oyster");
+                System.out.print("annoys");
             }
 
 
@@ -298,8 +298,8 @@ public class MyFirstApp {
 
             System.out.println();
 
-
             x = x - 1;
+
 
 
         }
