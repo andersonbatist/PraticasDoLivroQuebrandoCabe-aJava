@@ -202,130 +202,78 @@ public class MyFirstApp {
             }
         */
 
+        //EXERCICIO DA PISCINA. ESSE ME DEU TRABALHO
+
+        /*
 
 
+            int x = 0;
 
 
+            while (x < 4) {
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        int x = 0;
-
-
-
-
-
-
-            
-        while (x < 4) {
-            //
-
-
-
-
-
-            if (x < 1) {
                 System.out.print("a");
+
+                if (x < 1) {
+                    System.out.print(" ");
+
+                }
+
+                System.out.print("n");
+
+                if (x > 1) {
+                    System.out.print("oyster");
+
+                    x = x + 2;
+                }
+
+                if (x == 1) {
+                    System.out.print("noys");
+                }
+
+                if (x < 1) {
+                    System.out.print("oise");
+                }
+
+                System.out.println();
+
+                x = x + 1;
+                
+
+            }
+        */
+
+        //PRATICANDO APÓS CONCLUIR O EXERCICIO DA PISCINA
+
+        /*
+
+            int x = 0;
+
+            while (x < 4) {
+                System.out.print("Eu");
+
+                if ( x > 2) {
+                    System.out.print("Amo");
+                }
+
+                System.out.print(" ");
+
+                x = x + 1;
+
+                if ( x == 1) {
+                    System.out.print("Te");
+                }
+
+                System.out.println();
+                
+                x = x + 2;
             }
 
 
+        */
 
-
-
-
-            System.out.print(" ");
-
-
-
-            if (x < 1) {
-                 System.out.print("noise");
-
-
-             x = x + 2;
-            }
-
-
-
-
-            if (x == 1) {
-             System.out.print("noys");
-            }
-
-
-
-
-            if (x > 3) {
-                System.out.print("annoys");
-            }
-
-
-
-
-
-            System.out.println();
-
-            x = x - 1;
-
-
-
-        }
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
