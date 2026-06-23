@@ -273,7 +273,12 @@ public class MyFirstApp {
 
         */
 
-        
+        Dog myDog = new Dog();
+
+        myDog.size = 40;
+
+        myDog.bark();
+
 
 
 
