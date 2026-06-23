@@ -273,11 +273,45 @@ public class MyFirstApp {
 
         */
 
-        Dog myDog = new Dog();
+        //Iniciando os exercícios com as classes
 
-        myDog.size = 40;
+        /*
 
-        myDog.bark();
+            Dog myDog = new Dog();
+
+            myDog.size = 40;
+
+            myDog.bark();
+
+        */
+
+
+        /*
+       
+
+            Movie one = new Movie();
+            one.tituto = "Spider-man";
+            one.genero = "Ação";
+            one.nota = 5;
+
+            Movie two = new Movie();
+            two.tituto = "As crônicas de Nàrnia";
+            two.genero = "Aventura";
+            two.nota = 100000;
+
+            Movie trree = new Movie();
+            trree.tituto = "Iron-man";
+            trree.genero = "Ação";
+            trree.nota = 6;
+
+            System.out.println();
+        */
+
+        GuessGame Start = new GuessGame();
+
+        Start.StartGame();
+
+        
 
 
 
