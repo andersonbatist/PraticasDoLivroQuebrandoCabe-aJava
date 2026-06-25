@@ -307,13 +307,39 @@ public class MyFirstApp {
             System.out.println();
         */
 
-        GuessGame Start = new GuessGame();
+            //Execultável pro programa GuessGame
 
-        Start.StartGame();
+        /*
 
-        
+            GuessGame Start = new GuessGame();
+
+            Start.StartGame();
+
+         */
+
+        //Execultável do programa StreamingSong
+
+        /*
 
 
+            StreamingSong song = new StreamingSong();
+
+            song.artista = "Zezé de Camargo e Luciano";
+            song.titulo = "Sonhos de Amor";
+
+            song.mostrarDetalhes();
+            System.out.println();
+            System.out.println();
+            song.play();
+        */
+
+        //Execultável pro programa de Episodio
+
+        Episodio episodio = new Episodio();
+
+        episodio.numeroEpisodio = 4;
+        episodio.play();
+        episodio.pular();
 
 
 
