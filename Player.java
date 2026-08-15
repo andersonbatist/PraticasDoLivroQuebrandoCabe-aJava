@@ -4,4 +4,4 @@ public class Player {
     public void guess (){
         number =  (int) (Math.random() * 10);
     };
-}
+} 

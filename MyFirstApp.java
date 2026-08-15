@@ -333,13 +333,21 @@ public class MyFirstApp {
             song.play();
         */
 
-        //Execultável pro programa de Episodio
+        //Ímãs de geladeira
 
-        Episodio episodio = new Episodio();
+        /*   
+            DrumKit d = new DrumKit();
+            d.playsnare();
+            
+            d.playtophat();
+        */
 
-        episodio.numeroEpisodio = 4;
-        episodio.play();
-        episodio.pular();
+        
+        //Quebra-cabeça na Piscina
+
+         
+
+        
 
 
 
